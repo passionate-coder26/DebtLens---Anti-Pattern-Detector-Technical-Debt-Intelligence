@@ -1,0 +1,490 @@
+{
+    "project_url": "https://github.com/psf/requests",
+    "total_loc": 11181,
+    "total_debt_score": 116,
+    "normalized_tdi": 10.37,
+    "files_analyzed": 36,
+    "file_details": [
+        {
+            "filename": "setup.py",
+            "path": "./temp_repo\\setup.py",
+            "metrics": {
+                "loc": 9,
+                "complexity": 0,
+                "avg_complexity": 0,
+                "methods": 0
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "conf.py",
+            "path": "./temp_repo\\docs\\conf.py",
+            "metrics": {
+                "loc": 385,
+                "complexity": 0,
+                "avg_complexity": 0,
+                "methods": 0
+            },
+            "issues": [
+                "Long Method / Large File"
+            ],
+            "debt_score": 2
+        },
+        {
+            "filename": "flask_theme_support.py",
+            "path": "./temp_repo\\docs\\_themes\\flask_theme_support.py",
+            "metrics": {
+                "loc": 86,
+                "complexity": 1,
+                "avg_complexity": 1.0,
+                "methods": 0
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "adapters.py",
+            "path": "./temp_repo\\src\\requests\\adapters.py",
+            "metrics": {
+                "loc": 697,
+                "complexity": 19,
+                "avg_complexity": 3.727272727272727,
+                "methods": 38
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class",
+                "High Complexity"
+            ],
+            "debt_score": 14
+        },
+        {
+            "filename": "api.py",
+            "path": "./temp_repo\\src\\requests\\api.py",
+            "metrics": {
+                "loc": 157,
+                "complexity": 1,
+                "avg_complexity": 1.0,
+                "methods": 8
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "auth.py",
+            "path": "./temp_repo\\src\\requests\\auth.py",
+            "metrics": {
+                "loc": 314,
+                "complexity": 19,
+                "avg_complexity": 2.9473684210526314,
+                "methods": 29
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class",
+                "High Complexity"
+            ],
+            "debt_score": 14
+        },
+        {
+            "filename": "certs.py",
+            "path": "./temp_repo\\src\\requests\\certs.py",
+            "metrics": {
+                "loc": 18,
+                "complexity": 0,
+                "avg_complexity": 0,
+                "methods": 0
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "compat.py",
+            "path": "./temp_repo\\src\\requests\\compat.py",
+            "metrics": {
+                "loc": 106,
+                "complexity": 4,
+                "avg_complexity": 4.0,
+                "methods": 1
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "cookies.py",
+            "path": "./temp_repo\\src\\requests\\cookies.py",
+            "metrics": {
+                "loc": 561,
+                "complexity": 9,
+                "avg_complexity": 2.3773584905660377,
+                "methods": 90
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class"
+            ],
+            "debt_score": 10
+        },
+        {
+            "filename": "exceptions.py",
+            "path": "./temp_repo\\src\\requests\\exceptions.py",
+            "metrics": {
+                "loc": 152,
+                "complexity": 5,
+                "avg_complexity": 1.2857142857142858,
+                "methods": 6
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "help.py",
+            "path": "./temp_repo\\src\\requests\\help.py",
+            "metrics": {
+                "loc": 131,
+                "complexity": 6,
+                "avg_complexity": 4.333333333333333,
+                "methods": 3
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "hooks.py",
+            "path": "./temp_repo\\src\\requests\\hooks.py",
+            "metrics": {
+                "loc": 34,
+                "complexity": 6,
+                "avg_complexity": 4.0,
+                "methods": 2
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "models.py",
+            "path": "./temp_repo\\src\\requests\\models.py",
+            "metrics": {
+                "loc": 1046,
+                "complexity": 21,
+                "avg_complexity": 4.458333333333333,
+                "methods": 86
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class",
+                "High Complexity"
+            ],
+            "debt_score": 14
+        },
+        {
+            "filename": "packages.py",
+            "path": "./temp_repo\\src\\requests\\packages.py",
+            "metrics": {
+                "loc": 23,
+                "complexity": 0,
+                "avg_complexity": 0,
+                "methods": 0
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "sessions.py",
+            "path": "./temp_repo\\src\\requests\\sessions.py",
+            "metrics": {
+                "loc": 833,
+                "complexity": 15,
+                "avg_complexity": 4.066666666666666,
+                "methods": 53
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class",
+                "High Complexity"
+            ],
+            "debt_score": 14
+        },
+        {
+            "filename": "status_codes.py",
+            "path": "./temp_repo\\src\\requests\\status_codes.py",
+            "metrics": {
+                "loc": 128,
+                "complexity": 6,
+                "avg_complexity": 6.0,
+                "methods": 1
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "structures.py",
+            "path": "./temp_repo\\src\\requests\\structures.py",
+            "metrics": {
+                "loc": 99,
+                "complexity": 2,
+                "avg_complexity": 1.375,
+                "methods": 28
+            },
+            "issues": [
+                "Large Class"
+            ],
+            "debt_score": 3
+        },
+        {
+            "filename": "utils.py",
+            "path": "./temp_repo\\src\\requests\\utils.py",
+            "metrics": {
+                "loc": 1083,
+                "complexity": 18,
+                "avg_complexity": 4.5476190476190474,
+                "methods": 42
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class",
+                "High Complexity"
+            ],
+            "debt_score": 14
+        },
+        {
+            "filename": "_internal_utils.py",
+            "path": "./temp_repo\\src\\requests\\_internal_utils.py",
+            "metrics": {
+                "loc": 51,
+                "complexity": 3,
+                "avg_complexity": 2.5,
+                "methods": 2
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "__init__.py",
+            "path": "./temp_repo\\src\\requests\\__init__.py",
+            "metrics": {
+                "loc": 183,
+                "complexity": 10,
+                "avg_complexity": 6.5,
+                "methods": 2
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "__version__.py",
+            "path": "./temp_repo\\src\\requests\\__version__.py",
+            "metrics": {
+                "loc": 14,
+                "complexity": 0,
+                "avg_complexity": 0,
+                "methods": 0
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "compat.py",
+            "path": "./temp_repo\\tests\\compat.py",
+            "metrics": {
+                "loc": 23,
+                "complexity": 1,
+                "avg_complexity": 1.0,
+                "methods": 1
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "conftest.py",
+            "path": "./temp_repo\\tests\\conftest.py",
+            "metrics": {
+                "loc": 58,
+                "complexity": 1,
+                "avg_complexity": 1.0,
+                "methods": 4
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "test_adapters.py",
+            "path": "./temp_repo\\tests\\test_adapters.py",
+            "metrics": {
+                "loc": 8,
+                "complexity": 2,
+                "avg_complexity": 2.0,
+                "methods": 1
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "test_help.py",
+            "path": "./temp_repo\\tests\\test_help.py",
+            "metrics": {
+                "loc": 27,
+                "complexity": 2,
+                "avg_complexity": 1.8,
+                "methods": 5
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "test_hooks.py",
+            "path": "./temp_repo\\tests\\test_hooks.py",
+            "metrics": {
+                "loc": 22,
+                "complexity": 2,
+                "avg_complexity": 1.6666666666666667,
+                "methods": 3
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "test_lowlevel.py",
+            "path": "./temp_repo\\tests\\test_lowlevel.py",
+            "metrics": {
+                "loc": 428,
+                "complexity": 6,
+                "avg_complexity": 3.4285714285714284,
+                "methods": 14
+            },
+            "issues": [
+                "Long Method / Large File"
+            ],
+            "debt_score": 2
+        },
+        {
+            "filename": "test_packages.py",
+            "path": "./temp_repo\\tests\\test_packages.py",
+            "metrics": {
+                "loc": 13,
+                "complexity": 1,
+                "avg_complexity": 1.0,
+                "methods": 3
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "test_requests.py",
+            "path": "./temp_repo\\tests\\test_requests.py",
+            "metrics": {
+                "loc": 3052,
+                "complexity": 8,
+                "avg_complexity": 2.861788617886179,
+                "methods": 468
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class"
+            ],
+            "debt_score": 10
+        },
+        {
+            "filename": "test_structures.py",
+            "path": "./temp_repo\\tests\\test_structures.py",
+            "metrics": {
+                "loc": 78,
+                "complexity": 3,
+                "avg_complexity": 2.0714285714285716,
+                "methods": 24
+            },
+            "issues": [
+                "Large Class"
+            ],
+            "debt_score": 3
+        },
+        {
+            "filename": "test_testserver.py",
+            "path": "./temp_repo\\tests\\test_testserver.py",
+            "metrics": {
+                "loc": 165,
+                "complexity": 4,
+                "avg_complexity": 2.4166666666666665,
+                "methods": 22
+            },
+            "issues": [
+                "Large Class"
+            ],
+            "debt_score": 3
+        },
+        {
+            "filename": "test_utils.py",
+            "path": "./temp_repo\\tests\\test_utils.py",
+            "metrics": {
+                "loc": 990,
+                "complexity": 6,
+                "avg_complexity": 2.3289473684210527,
+                "methods": 105
+            },
+            "issues": [
+                "Long Method / Large File",
+                "Large Class",
+                "God Class"
+            ],
+            "debt_score": 10
+        },
+        {
+            "filename": "utils.py",
+            "path": "./temp_repo\\tests\\utils.py",
+            "metrics": {
+                "loc": 17,
+                "complexity": 3,
+                "avg_complexity": 3.0,
+                "methods": 1
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "__init__.py",
+            "path": "./temp_repo\\tests\\__init__.py",
+            "metrics": {
+                "loc": 14,
+                "complexity": 0,
+                "avg_complexity": 0,
+                "methods": 0
+            },
+            "issues": [],
+            "debt_score": 0
+        },
+        {
+            "filename": "server.py",
+            "path": "./temp_repo\\tests\\testserver\\server.py",
+            "metrics": {
+                "loc": 176,
+                "complexity": 4,
+                "avg_complexity": 2.2,
+                "methods": 25
+            },
+            "issues": [
+                "Large Class"
+            ],
+            "debt_score": 3
+        },
+        {
+            "filename": "__init__.py",
+            "path": "./temp_repo\\tests\\testserver\\__init__.py",
+            "metrics": {
+                "loc": 0,
+                "complexity": 0,
+                "avg_complexity": 0,
+                "methods": 0
+            },
+            "issues": [],
+            "debt_score": 0
+        }
+    ]
+}
